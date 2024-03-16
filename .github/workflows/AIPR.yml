@@ -22,5 +22,5 @@ jobs:
       uses: alexanmtz/AIPR@v0.1
       with:
         openai_api_key: ${{ secrets.OPENAI_API_KEY }}
-        openai_tokens: 1200
-        file_chunks: 100000
+        openai_tokens: 800
+        file_chunks: 100
